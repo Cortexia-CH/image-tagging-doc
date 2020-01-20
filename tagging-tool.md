@@ -91,8 +91,9 @@ Once connected and the images loaded use the regions creation tool and draw for 
 - The same applies to blurry parts of the image, or parts with poor lighting. 
 - what is the minimum size of an object in pixel? - no fixed boundary, but many objects are small. We probably need a size of 5x5 pixel to identify the classification
 - special cases: leaves are only litter on fixed ground. on green areas they are not considered as litter:  ![leaves considered as litter](images/leaves-litter.png)
-- images whihc are already tagged (with annotations in the sidebar) should be DELETED.
-- images with clear visible faces or car number plates should be DELETED
+- images which are already tagged (with annotations in the sidebar) should be DELETED ![icon delete image tool](images/tool-delete-image.png)
+- images with clear visible faces or car number plates should be DELETED ![icon delete image tool](images/tool-delete-image.png)
+- sometimes you can see bottles etc. inside a transparent waste bag. In this case only the waste bag needs to me annotated, not the litter inside.
 
 ## Saving your work
 
