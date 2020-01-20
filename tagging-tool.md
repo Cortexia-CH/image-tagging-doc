@@ -93,7 +93,7 @@ Once connected and the images loaded use the regions creation tool and draw for 
 - special cases: leaves are only litter on fixed ground. on green areas they are not considered as litter:  ![leaves considered as litter](images/leaves-litter.png)
 - images which are already tagged (with annotations in the sidebar) should be DELETED ![icon delete image tool](images/tool-delete-image.png)
 - images with clear visible faces or car number plates should be DELETED ![icon delete image tool](images/tool-delete-image.png)
-- sometimes you can see bottles etc. inside a transparent waste bag. In this case only the waste bag needs to me annotated, not the litter inside.
+- sometimes you can see bottles etc. inside a transparent waste bag. In this case only the waste bag needs to be annotated, not the litter inside.
 
 ## Saving your work
 
