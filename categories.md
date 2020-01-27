@@ -30,8 +30,29 @@ ID | name | description | colour
 22 |   'Sand/Grit/Granulate' |   'Grit, granulate, sand' |   '#616161' 
 23 |   'Chewing- gum' |   'Chewing-gum' |   '#607d8b' 
 24 |   'Vomit' |   'Vomit' |   '#e53935' 
+25 |   'FF Cup' |   'Fast Food: only cup' |   '#7b1fa2' 
+26 |   'FF Lid' |   'Fast Food: only lid' |   '#8e24aa' 
+27 |   'FF Straw' |   'Fast Food: only straw' |   '#9c27b0' 
+28 |   'FF Fries carton' |   'Fast Food: Fries carton' |   '#ab47bc' 
+29 |   'Unclear bottles' |   'Unclear bottles (too much light)' 
+30 |   'FF Burger Box' |   'Fast Food: Box for burger/wraps/nuggets' |   '#ba68c8' 
+31 |   'FF Paper' |   'Fast Food: Paper (hamburger, cheese...' |   '#ce93d8' 
+32 |   'FF Other Paper' |   'Fast Food: Other Paper (happymeal, paper bag...' |   '#e1bee7' 
+33 |   'iQos' |   'Cigarettes "iQos"' |   '#ffc400' 
+34 |   'Confettis (pile)' |   'Confettis (pile)' 
+35 |   'Medium/big stain' |   'Medium/big stain' 
+36 |   'Transparent plastic' |   'Transparent plastic' |   '#eceff1' 
+37 |   'Opaque plastic' |   'Opaque plastic' |   '#455a64' 
+38 |   'Fabric' |   'Fabric' 
+40 |   'Capsule' |   'Bottle/can capsule or PET cap.' 
+41 |   'Carcass' |   'Carcass' |   '#f44336'  
+45 |   'Waste bin stain' |   'Waste bin: stain' |   '#546e7a' 
+46 |   'Waste bin tag' |   'Waste bin: tag' |   '#607d8b' 
+47 |   'Waste bin sticker' |   'Waste bin: sticker' |   '#78909c' 
+48 |   'Waste bin Ouverture' |   'Waste bin: Ouverture' |   '#90a4ae' 
+49 |   'Waste bin' |   'Waste bin' |   '#b0bec5' 
 
-## Full list ofcategories
+## Full list of categories
 
 There are additional categories for internal separation, but this list below is just for information, you do not need to manually tag all of these categories.
 
