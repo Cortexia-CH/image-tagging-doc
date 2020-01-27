@@ -21,13 +21,24 @@ For each identified object we need the bounding box and the class. See next sect
 - objects can be cut off or partially hidden. E.g. hidden by image boundary, other objects, or poor lighting. As long as the visible part of the object allows to identify its classification, it should be tagged.
 - The same applies to blurry parts of the image, or parts with poor lighting. 
 - what is the minimum size of an object in pixel? - no fixed boundary, but many objects are small. We probably need a size of 5x5 pixel to identify the classification
-- special cases: leaves are only litter on fixed ground. on green areas they are not considered as litter:  ![leaves considered as litter](images/leaves-litter.png)
+- leaves are only litter on fixed ground. on green areas they are not considered as litter, see examples below  
 
-### categories
+### Categories
 
 Please see the list of categories [here](./categories.md)
 
-### examples
+### Examples
+
+Leaves on green area should not be tagged:
+![leaves considered as litter](images/leaves-litter.png)
+
+The same applies for green areas like this picture of tramways, litter needs to be tagged, except for dead leaves on the green area. 
+![tramways](images/tramways.png)
+
+If we have plants overgrowing the hard surface, it is the same, the green is not litter, and on top of the green everything needs to be tagged except dead leaves. 
+![green on hard surfaces](images/green-on-hard-surface.png)
+
+On the same picture above you also see some street damage in front. The damage itself is not litter, but the loose gravel is litter and should be tagged as category 22 "Grit/Granulate/Sand"
 
 ## output format
 
