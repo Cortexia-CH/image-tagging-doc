@@ -22,8 +22,11 @@ For each identified object we need the bounding box and the class. See next sect
 - The same applies to blurry parts of the image, or parts with poor lighting. 
 - what is the minimum size of an object in pixel? - no fixed boundary, but many objects are small. We probably need a size of 5x5 pixel to identify the classification
 - leaves are only litter on fixed ground. on green areas they are not considered as litter, see examples below
-- images with recognizable faces of people should be deleted 
-- images with recognizable number plates should be deleted 
+- images with **recognizable faces** of people should be deleted 
+- images with **recognizable number plates** should be deleted 
+- images with already existing tagging information should be 
+  - **skipped** if the tagging information is *normal*, e.g. can be selected
+  - **deleted** if the tagging information is inside the image itself
 
 ### Categories
 
