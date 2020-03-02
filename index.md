@@ -45,6 +45,8 @@ If we have plants overgrowing the hard surface, it is the same, the green is not
 
 On the same picture above you also see some street damage in front. The damage itself is not litter, but the loose gravel is litter and should be tagged as category 22 "Grit/Granulate/Sand"
 
+Do not tag this kind of items - we do not have a classification for these straw-shaped leaves: ![straw](images/straw.jpg)
+
 ## output format
 
 We will need the output as JSON file if possible (unless you are using our tagging tool which will take care of this automatically). Our sample JSON format is [here](./cortexia-sample.json).
