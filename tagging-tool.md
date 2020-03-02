@@ -81,6 +81,19 @@ The main interface looks like the image below. You'll find:
 
 ![icon image navigation tool](images/tool-image-navigation.png) To navigate through the images. You can also use the keyboard arrows or click on the preview of the desired image.
 
+### Hints
+
+**lock**
+
+you can lock the current litter type to tag all the same litters without selecting it every time from the right menu (tag menu).
+* on windows and linux use `control` and click on the desired litter from the right menu.
+* on mac and linux use `command` and click on the desired litter type from the right menu.
+
+The next tag you will create will have the same litter type as long as you don't presse command on another litter or on the same to desactivate it.
+
+**litter shortcuts**
+
+When you've created a region you have to add a litter type to it. You can choose it from the right menu (tag menu). If you look closer you'll see that each litter have a number. You can type this number after creating the region to tag it with the corresponding litter. For number with 2 digits type them fast (within 0,5 seconde).
 
 ## Tagging an image
 
