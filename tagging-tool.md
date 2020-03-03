@@ -81,6 +81,8 @@ The main interface looks like the image below. You'll find:
 
 ![icon image navigation tool](images/tool-image-navigation.png) To navigate through the images. You can also use the keyboard arrows or click on the preview of the desired image.
 
+![number of images to load](images/tool-image-number.png) To choose the number of images to load when renwing the images.
+
 ### Hints
 
 **lock**
