@@ -18,6 +18,12 @@ the work queue of images to tag, and save your data right away.
 
 No hassle, you just need a browser and internet.
 
+We support the following browsers: 
+- Google Chrome
+- Firefox
+
+Other browsers (Safari, IE, Edge, etc.) are not supported.
+
 ## Registration
 
 Cortexia will provide you with the credentials to get into the tagging application: 
