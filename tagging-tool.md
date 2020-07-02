@@ -83,11 +83,11 @@ The main interface looks like the image below. You'll find:
 
 ![icon delete image tool](images/tool-delete-image.png) To delete an image
 
-![icon renew images tool](images/tool-renew-images.png) To load new images. Should be used when you tagged all images. Your current tagged image is sent to the server and saved.
+![icon renew images tool](images/tool-renew-images.png) To load new images. Should be used when you tagged all images.
 
 ![icon image navigation tool](images/tool-image-navigation.png) To navigate through the images. You can also use the keyboard arrows or click on the preview of the desired image.
 
-![number of images to load](images/tool-image-number.png) To choose the number of images to load when renwing the images.
+![number of images to load](images/tool-image-number.png) To choose the number of images to load when renewing the images.
 
 ### Hints
 
@@ -102,6 +102,10 @@ The next tag you will create will have the same litter type as long as you don't
 **litter shortcuts**
 
 When you've created a region you have to add a litter type to it. You can choose it from the right menu (tag menu). If you look closer you'll see that each litter have a number. You can type this number after creating the region to tag it with the corresponding litter. For number with 2 digits type them fast (within 0,5 seconde).
+
+**hide**
+
+To hide all regions (for example if you want to check what litter is hidden behind a small region), you can maintain the 'h' (for 'hide') key pressed.
 
 ## Tagging an image
 
@@ -121,9 +125,7 @@ Once connected and the images loaded use the regions creation tool and draw for 
 
 ## Saving your work
 
-When you move from one image to the next, the work is saved automatically, but you can still go back to that image to make more changes. 
-
-However, once you close your session or click on "renew images" (see above), all saved images are removed from your work queue and you cannot make any more changes in another session.
+To save the tagged regions, you need to press the "send" button. Once the image is sent, it is definitively removed from your workspace, so you will not be able to change your tags. However, the regions will not disappear if you move from an image to another - they just won't be saved.
 
 ## References
 

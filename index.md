@@ -24,6 +24,11 @@ For each identified object we need the bounding box and the class. See next sect
 - leaves are only litter on fixed ground. on green areas they are not considered as litter, see examples below
 - images with **recognizable faces** of people should be deleted 
 - images with **recognizable number plates** should be deleted 
+- images of **private properties** should be deleted
+- If case there are lots of litters on the same image:
+  - You need to tag each litter separately => if there are lots of papers **do not** add several of them in one single region
+  - For the leaves, you have a "group of leaves" tag => use it only when the space between the leaves is really tiny, tag each leaf separately if possible
+  - Tag **all of the litter**, not some of them. If it seems impossible, just delete the image.
 - images with already existing tagging information should be 
   - **skipped** if the tagging information is *normal*, e.g. can be selected
   - **deleted** if the tagging information is inside the image itself
