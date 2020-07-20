@@ -55,11 +55,17 @@ The complete list of litter categories is available in the application or [here]
 The main interface looks like the image below. You'll find:
 
 - on the top the tools bar
-- on the left you have menus (no need to modify something there, the project is already set up) and the preview of the images with their stats (explanation below).
+- on the left you have the preview of the images with their stats (explanation below) and the button to save your work
 - on the right you find the different tags (litter categories).
 - In the center you have the image to tag.
 
-![interface of VoTT app](images/vott-interface.png)
+![interface of VoTT app](images/vott-interface-2.jpg)
+
+## Saving your work
+
+To save the tagged regions, you need to press the "send" button. You need to press the "send" button on **each** image in order to save them. Once the image is sent, it is definitively removed from your workspace, so you will not be able to change your tags. However, the regions will not disappear if you move from an image to another - they just won't be saved.
+
+![send button](images/vott-send-button.png)
 
 ## Toolbar
 
@@ -122,10 +128,6 @@ Once connected and the images loaded use the regions creation tool and draw for 
   - If you save these without changes it means that you validate the work from the previous tagging run
 - images with clear visible faces or car number plates should be DELETED ![icon delete image tool](images/tool-delete-image.png)
 - sometimes you can see bottles etc. inside a transparent waste bag. In this case only the waste bag needs to be annotated, not the litter inside.
-
-## Saving your work
-
-To save the tagged regions, you need to press the "send" button. Once the image is sent, it is definitively removed from your workspace, so you will not be able to change your tags. However, the regions will not disappear if you move from an image to another - they just won't be saved.
 
 ## References
 
