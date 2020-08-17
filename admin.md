@@ -55,13 +55,11 @@ As an admin, your role is to check if the tagging of the images is correct. In t
 7. - Images that have too much of a same litter and that you cannot tag properly. For example, if there are too many leaves, you need to delete it (and **not** just tag it partially)
 
 ​	**You should validate:**
-
-			-	Images that were correctly tagged
-			-	Images without any litter
+    - Images that were correctly tagged
+    - Images without any litter
 
 ​	**You should un-delete**:
-
-- Images that were deleted for no reason
+    - Images that were deleted for no reason
 
 3. For each image that is **not deleted**, fix regions if necessary. You can add tags, deleted tags, change the size of the regions and change the tags. Check that all the regions have the correct tags and make sure that all the litters on the image were tagged. Make sure that each regions is exactly the size of the litter it covers.
    If you make any change to a region, don’t forget to **press the « send » button**. The image will remain in your session.

@@ -62,4 +62,4 @@ Please see the tool-specific information [here](tagging-tool.md)
 
 ## Using the Cortexia tagging tool as admin
 
-Please see the tool-specific information [here](admin.md)
+Please see the admin information [here](admin.md)
