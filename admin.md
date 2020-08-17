@@ -44,15 +44,11 @@ As an admin, your role is to check if the tagging of the images is correct. In t
 2. For each image, check the badges to see if it has been validated or deleted, and change it if necessary.
    **You should delete**
 
-3. - Images with readable license plates
-
-4. - Images of private properties
-
-5. - Images with recognizable faces
-
-6. - Images with automatic annotation (regions that you cannot click on)
-
-7. - Images that have too much of a same litter and that you cannot tag properly. For example, if there are too many leaves, you need to delete it (and **not** just tag it partially)
+ - Images with readable license plates
+ - Images of private properties
+ - Images with recognizable faces
+ - Images with automatic annotation (regions that you cannot click on)
+ - Images that have too much of a same litter and that you cannot tag properly. For example, if there are too many leaves, you need to delete it (and **not** just tag it partially)
 
 ​	**You should validate:**
 
