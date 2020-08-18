@@ -72,4 +72,4 @@ Please check this page for the complete list of the rules concerning the images:
 Here are a reminder of a few important rules:
 
 - You need to tag **all** the litters of an image. If you cannot, you need to delete it. Never tag an image partially.
-- You need to tag one litter per region. Never group several litters in one single region (expect for the « group of leaves » litter type
+- You need to tag one litter per region. Never group several litters in one single region (except for the « group of leaves » litter type)
