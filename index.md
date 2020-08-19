@@ -59,3 +59,7 @@ We will need the output as JSON file if possible (unless you are using our taggi
 ## Using the Cortexia tagging tool
 
 Please see the tool-specific information [here](tagging-tool.md)
+
+## Using the Cortexia tagging tool as admin
+
+Please see the admin information [here](admin.md)
