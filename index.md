@@ -33,9 +33,15 @@ For each identified object we need the bounding box and the class. See next sect
   - **skipped** if the tagging information is *normal*, e.g. can be selected
   - **deleted** if the tagging information is inside the image itself
 
+### If you are asked to focus on **a specific objet**, please <u>also</u> follow these steps:
+
+![steps when focusing on object](images/steps_to_tag.png)
+
 ### Categories
 
 Please see the list of categories [here](./categories.md)
+
+Please see examples for special categories [here](./categories_examples.md)
 
 ### Examples
 

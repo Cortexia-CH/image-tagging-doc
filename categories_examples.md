@@ -18,7 +18,7 @@ Here are the questions you should ask yourself when tagging iqos on images:
 
 ![is_it_an_iqos](images/is_it_an_iqos.png)
 
-Here are some example on object that should or should not be tagged as iqos:
+Here are some examples on objects that should or should not be tagged as iqos:
 
 ![iqos](images/iqos_1.png)
 

@@ -117,3 +117,6 @@ ID | name | description | colour
 59 |   'Wet paper tissue' |   '' 
 60 |   'filled waste bin' |   '' 
 61 |   'Robydog' |   'Robydog bags used in Basel' |   '#ffff00' 
+
+Please see examples for special categories [here](./categories_examples.md)
+
