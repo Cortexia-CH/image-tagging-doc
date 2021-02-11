@@ -26,3 +26,24 @@ Here are some examples on objects that should or should not be tagged as iqos:
 
 ![not_iqos](images/iqos_3.png)
 
+### Robydogs (#42)
+
+Robydogs are small plastic bags that contain dog droppings. They can be of several colours.
+
+In the following images you can see those robydogs:
+
+![robydog1](images/robydog1.jpg)
+
+![robydog2](images/robydog2.jpg)
+
+The robydog is only the plastic bag, not the bin! Here are some examples of robydogs on the ground:
+
+![robydog3](images/robydog3.jpg)
+
+![robydog4](images/robydog4.jpg)
+
+### Wooden or plastic crates (#44)
+
+![wooden crate](images/wooden_crate.png)
+
+![plastic crate](images/plastic_crate.jpg)
