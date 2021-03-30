@@ -122,22 +122,6 @@ Here are some examples on objects that should or should not be tagged as iqos:
 
 ![not_iqos](images/iqos_3.png)
 
-### Robydogs (#42)
-
-Robydogs are small plastic bags that contain dog droppings. They can be of several colours.
-
-In the following images you can see those robydogs:
-
-![robydog1](images/robydog1.jpg)
-
-![robydog2](images/robydog2.jpg)
-
-The robydog is only the plastic bag, not the bin! Here are some examples of robydogs on the ground:
-
-![robydog3](images/robydog3.jpg)
-
-![robydog4](images/robydog4.jpg)
-
 ### Confettis (#30)
 
 They are small colored pieces of papers used in parties. Please tag the whole pile.
@@ -184,11 +168,25 @@ Animal carcass
 
 ![Carcass](images/carcass.jpg)
 
+### Robydogs (#42)
+
+Robydogs are small plastic bags that contain dog droppings. They can be of several colours.
+
+In the following images you can see those robydogs:
+
+![robydog1](images/robydog1.jpg)
+
+![robydog2](images/robydog2.jpg)
+
+The robydog is only the plastic bag, not the bin! Here are some examples of robydogs on the ground:
+
+![robydog3](images/robydog3.jpg)
+
+![robydog4](images/robydog4.jpg)
+
 ### other foam polystyrene (#43)
 
 All the polystyrene litters that are not fast food (see #9)
-
-
 
 ![Other foam polystyrene](images/other_foam_polystyrene_2.jpg)|![Other foam polystyrene](images/other_foam_polystyrene_3.png)
 
