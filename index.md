@@ -28,6 +28,12 @@ For each identified object we need the bounding box and the class. See next sect
 
   ![Unfitting](images/unfitting_box.png)  ![Fitting](images/fitting_box.png)
 
+  In the following image, the red squares fit perfectly the PET bottles and the yellow ones are too large.
+
+  ![Unfitting vd fitting](images/sample_labeling.png)
+
+  
+
   Please use the zoom in order to draw precise bounding boxes.
 
 - In case there are lots of litters on the same image:
