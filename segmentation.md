@@ -51,7 +51,7 @@ You might be asked to do segmentation tagging. In this case, you will see diiffe
 
 - ![small-grass](images/small_grass.jpeg)
 
-- You can ignore those objects: traffic signs and poles, trash bins, side of the bike to which is attached the camera.
+- You can ignore those objects: traffic signs and poles, trash bins, the visible side of the vehicle (bike or sweeper) to which is attached the camera and the camera itself.
 
 - People on a bicycle should be one single object, labelled "Vehicle".
 
