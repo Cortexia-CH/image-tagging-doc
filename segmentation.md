@@ -29,21 +29,40 @@ You might be asked to do segmentation tagging. In this case, you will see diiffe
 
 ### :warning: Important remarks
 
-- Sometimes objects will be only partially visible. This is especially true for regions like roads, buildings, etc., which become difficult to label when there are many occlusions. Please complete the boundary **as if they were not occluded**.
+- Sometimes objects will be only partially visible. This is especially true for regions like roads, buildings, etc., which become difficult to label when there are many occlusions. Please complete the boundary **as if they were not occluded**. Don't hesitate to complete the shape of the objects when possible
 
   - Example: there is a road that is partially masked by a tree:
     1. You tag the tree normally
     2. You tag the road as if there was no tree
 
-  See how objects are overlapping:
+  In the image below the building and the pedestrian **should overlap**:
 
   ![segmetation-overlapping](images/segmentation2_labels.png)
+
+  See how the shape of the people are completed:
+
+  ![people_overlapping](images/people2.jpeg)
 
 - The regions can overlap
 
 - **Do not segment litters**
 
-- If none of the categories fit the object you're seeing, use "Miscellaneous" and contact the dev team.
+- Do not segment very small objects, like small parts of grass that grow between the main road and the buildings.
+
+- ![small-grass](images/small_grass.jpeg)
+
+- You can ignore those objects: traffic signs and poles, trash bins, the visible side of the vehicle (bike or sweeper) to which is attached the camera and the camera itself.
+
+- People on a bicycle/motorcicle should be one single object, labelled "Vehicle".
+
+- Try to segment the whole image if you can. It is okay if there are spaces between some objects.
+
+- Try as much as possible to label the objects in the closest provided category. If none of the categories fit the object you're seeing, use "Miscellaneous".
+  Example: there is no category for the building site on the following image. You should tag it as "Miscellaneous".
+
+  ![building-site](images/building_site.jpeg)
+
+- 
 
 ### :bulb: Help
 
