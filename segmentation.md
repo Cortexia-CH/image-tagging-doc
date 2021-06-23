@@ -53,7 +53,7 @@ You might be asked to do segmentation tagging. In this case, you will see diiffe
 
 - You can ignore those objects: traffic signs and poles, trash bins, the visible side of the vehicle (bike or sweeper) to which is attached the camera and the camera itself.
 
-- People on a bicycle should be one single object, labelled "Vehicle".
+- People on a bicycle/motorcicle should be one single object, labelled "Vehicle".
 
 - Try to segment the whole image if you can. It is okay if there are spaces between some objects.
 
