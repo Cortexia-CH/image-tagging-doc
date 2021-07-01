@@ -22,7 +22,10 @@ For each identified object we need the bounding box and the class. See next sect
   - images with **recognizable number plates**
   - images of **private properties**
 
+- You should **not** delete images with no litters. Just send them without any tags.
+
 - Tag a litter only if you are sure that you recognized it (no guessing). Please use the zoom to see all the details of a litter and make sure to label it correctly. You can find how to activate your zoom by clicking on the magnifier icon of the platform.
+- If you see a litter that you cannot recognize (for example if you cannot tell if it is an opaque plastic of food packaging), tag it as **Miscellaneous**. ⚠️ you must be 100% that what you see is an actual litter.
 
 - The bounding boxes must perfectly fit the litter: there should not be any space between the border and the litter
 
