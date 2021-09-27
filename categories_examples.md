@@ -32,7 +32,15 @@ Every kind of food packaging
 
 ### glass splinter (#13)
 
-Crushed glass or broken glass
+Crushed glass or broken glass. Please **both** piles of glass and isolated pieces of glass as "glass splinter".
+
+![Shattered glass untagged](images/shattered_glass_easy.jpeg)
+
+![Shattered glass tagged](images/shattered_glass_easy_tagged.jpeg)
+
+![Shattered glass difficult untagged](images/shattered_glass_difficult.jpeg)
+
+![Shattered glass difficult tagged](images/shattered_glass_difficult_tagged.jpeg)
 
 ![Glass splinter](images/glass_splinter_1.jpg)
 
@@ -44,6 +52,8 @@ Fast food cup - there is only the receptacle
 
 ![Only cup](images/ff_only_cup.jpg)
 
+![Only cup](images/cup_3.jpeg)
+
 ### FF cups (only lid) (#22)
 
 Fast food cup - there is only the lid.
@@ -54,6 +64,8 @@ In this case, you should tag the lid and the straw using 2 bounding boxes. Here 
 
 ![Only lid](images/ff_only_lid_2.jpg)
 
+![Only cup](images/cup_2.jpeg)
+
 ### FF cups (only straw) (#23)
 
 Fast food cup - there is only the straw.
@@ -63,6 +75,8 @@ Fast food cup - there is only the straw.
 In this case, you should tag the lid and the straw using 2 bounding boxes. Here is how to tag the **straw part** (see the lid in the category above):
 
 ![Only straw](images/ff_only_straw.jpg)
+
+![Only cup](images/cup_4.jpeg)
 
 ### FF fries box (#24)
 
@@ -79,6 +93,8 @@ Bottles that are too bright or to dark to be sure that it is PET or glass.
 Fast food burger of nuggets boxes
 
 ![Burger box](images/ff_burger_box.jpg)
+
+![Only cup](images/burger_box.jpeg)
 
 ### FF paper folder (#27)
 
@@ -127,6 +143,12 @@ Here are some examples on objects that should or should not be tagged as iqos:
 They are small colored pieces of papers used in parties. Please tag the whole pile.
 
 ![Confettis](images/confettis.jpg)
+
+### Medium big stain (#31)
+
+Medium or big stain of any colour.
+
+:warning: Do not tag water stains!
 
 ### Transparent plastic (#32)
 
