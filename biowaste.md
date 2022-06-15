@@ -21,7 +21,7 @@ The images to be tagged come from 3 possible contexts described as follows, wher
 
 1) A truck from road services collects the biowaste at individuals’ collection points. The biowaste is stored in the individual’s containers waiting along the street to be loaded inside the truck chamber. The image acquisition is made from the inside of the truck chamber when the content from a container is poured inside and falls and spreads in the chamber's bed. On these images, the inside structured of the truck chamber are visible like the piston and the hydraulic press. The zone of interest for tagging is the surface of the chamber’s bed covered by the biowaste.
 
- ![loading in truck's chamber](images/biowaste1.png)
+ ![loading in truck's chamber](images/biowaste1.jpg)
 
 2) The images are taken at the end of the collection tour when the entire truck’s load is delivered at the biowaste treatment center. Images show the back side of the truck, while the content is slowly poured outside. The zone of interest for tagging is delimited by the frame of the truck’s main back door. 
 
