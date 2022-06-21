@@ -127,7 +127,6 @@ Once connected and the images loaded use the regions creation tool and draw for 
   - Please review them to check the tagging is complete. Add tags or remove as necessary.
   - If you save these without changes it means that you validate the work from the previous tagging run
 - images with clear visible faces or car number plates should be DELETED ![icon delete image tool](images/tool-delete-image.png)
-- sometimes you can see bottles etc. inside a transparent waste bag. In this case only the waste bag needs to be annotated, not the litter inside.
 
 ## References
 
