@@ -27,7 +27,7 @@
 - [Robydogs (#42)](#waste42)
 - [other foam polystyrene (#43)](#waste43)
 - [masks (#45)](#waste45)
-- [Wooden or plastic crates (#44)](#waste44)
+- [Nitrous oxyde bottle (#47)](#waste47)
 
 
 ### Deal with cups <a name="waste0"></a>
@@ -286,3 +286,17 @@ Face protection masks. Most of the time, you will see blue paper mask (circled i
 ![Masks](images/masks.png)
 
 ![Masks](images/masks_2.jpg)
+
+### Nitrous oxyde bottle (#47) <a name="waste47"></a>
+
+Small bottles of nitrous oxyde. They are made of metal, pretty small, with a recognizable shape. The end usually appears lighter because it reflects the light.
+
+![Nitrous](images/proto1.jpg)
+![Nitrous](images/proto2.jpg)
+![Nitrous](images/proto3.png)
+
+
+
+##### Image sources
+- https://france3-regions.francetvinfo.fr/image/vqxTVsRGp--4Zu6nPIcHZgR6Z1M/600x400/regions/2020/06/09/5edf950e2fee1_img_8118-4553541.jpg
+- https://medias.cerveauetpsycho.fr/api/v1/images/view/5da9008b3e4546731a4ec5f0/wide_1300/image.jpg
