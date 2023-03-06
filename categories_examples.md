@@ -50,6 +50,8 @@ They are carton drink cups (for example take-away coffee cups), or carton (for e
 
 ![carton_drink](images/carton_drink_4.png)
 
+![carton_drink](images/carton_drink_5.png)
+
 ### FF cups drink receptacles (#8) <a name="waste8"></a>
 
 Plastic fast food cups (for example Mc Donald's cups). Please use this category only if you can see the whole cup (cup + lid + straw). If  not, please use other categories (#21, #22 or #23)
@@ -59,6 +61,8 @@ If it is a simple plastic cup without any brand, tag it as plastic (transparent 
 ![fast food cup](images/ff_cup_1.jpg)
 
 ![fast food cup](images/cafe_latte.png)
+
+![fast food cup](images/ff_cup_2.png)
 
 
 ### FF foam polystyrene (#9) <a name="waste9"></a>
@@ -76,6 +80,7 @@ Every kind of food packaging
 ![food packaging](images/food_packaging_1.jpg)
 ![food packaging](images/food_packaging_3.png)
 ![food packaging](images/food_packaging_4.png)
+![food packaging](images/food_packaging_5.png)
 
 ### glass splinter (#13) <a name="waste13"></a>
 
