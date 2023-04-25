@@ -27,41 +27,44 @@
 - [Robydogs (#42)](#waste42)
 - [other foam polystyrene (#43)](#waste43)
 - [masks (#45)](#waste45)
-- [Nitrous oxyde bottle (#47)](#waste47)
-
-
-### Deal with cups <a name="waste0"></a>
-
-![deal_with_cups](images/dealing_with_cups.png)
-![deal_with_cups](images/dealing_with_cups.drawio.png)
-
-
+- [Nitrous oxyde bottle (#46)](#waste46)
+- [Transp. plastic food tray (#48)](#waste48)
+- [Opaque plastic food tray (#49)](#waste49)
+- [Cardboard food tray (#50)](#waste50)
+- [Transp. plastic tray lid (#51](#waste51)
+- [Transparent cup (#52)](#waste52)
 
 ## All categories with images
+
+### Quick view - confusing categories
+This table shows several examples for categories that mgith be mistaken with others. This is not an exhaustive list.
+You will find each category with description and other examples below.
+
+![fast food cup](images/all_examples.png)
 ### carton drink receptacles (#7) <a name="waste7"></a>
 
-They are carton drink cups (for example take-away coffee cups), or carton (for example carton of milk).
+They are rectangular carton drink cups (small carton drink boxes with a little straw), or carton (for example carton of milk) or juice.
 
 ![carton_drink](images/carton_drink_1.jpg)
 
-![carton_drink](images/carton_drink_2.jpg)
-
 ![carton_drink](images/carton_drink_3.jpg)
 
-![carton_drink](images/carton_drink_4.png)
-
-![carton_drink](images/carton_drink_5.png)
+![carton_drink](images/carton_drink_6.jpg)
+![carton_drink](images/carton_drink_7.jpg)
+![carton_drink](images/carton_drink_8.jpg)
 
 ### FF cups drink receptacles (#8) <a name="waste8"></a>
 
-Plastic fast food cups (for example Mc Donald's cups). Please use this category only if you can see the whole cup (cup + lid + straw). If  not, please use other categories (#21, #22 or #23)
-Do not mistake with carton drink receptacles (#7).
-If it is a simple plastic cup without any brand, tag it as plastic (transparent or opaque, depending on the cup).
+Plastic or cardboard fast food cups, for example Mc Donald's or Starbucks cups, ice cream cups... Please use this category only if you can see the whole cup.
+If  not, please use other categories (#21, #22 or #23).
+If it is a simple plastic cup without any brand, tag it as transpartent plastic cup (#52) or opaque plastic (#33), depending on the cup.
 
 ![fast food cup](images/ff_cup_1.jpg)
+![fast food cup](images/ff_cup_4.jpg)
+![fast food cup](images/ff_cup_3.png)
+
 
 ![fast food cup](images/cafe_latte.png)
-
 ![fast food cup](images/ff_cup_2.png)
 
 
@@ -73,14 +76,15 @@ Fast food boxes that are made of polystyrene
 
 ![fast food cup](images/ff_foam_polystyrene.png)
 
-### Food packaging (#10) <a name="waste10"></a>
+ ### Food packaging (#10) <a name="waste10"></a>
+PLEASE DO NOT USE ANYMORE
 
-Every kind of food packaging
+<!-- Every kind of food packaging
 
 ![food packaging](images/food_packaging_1.jpg)
 ![food packaging](images/food_packaging_3.png)
 ![food packaging](images/food_packaging_4.png)
-![food packaging](images/food_packaging_5.png)
+![food packaging](images/food_packaging_5.png) --> 
 
 ### glass splinter (#13) <a name="waste13"></a>
 
@@ -93,26 +97,30 @@ Crushed glass or broken glass. Please **both** piles of glass and isolated piece
 ![Shattered glass difficult untagged](images/shattered_glass_difficult.jpeg)
 
 ![Shattered glass difficult tagged](images/shattered_glass_difficult_tagged.jpeg)
+![Glass splinter](images/shattered_glass_real.jpg)
 
 ![Glass splinter](images/glass_splinter_1.jpg)
-
-![Glass splinter](images/glass_splinter_2.png)
 
 ### Syringes (#14) <a name="waste14"></a>
 
 ![Syringes](images/syringes.png)
 
-### FF cups (only cup) (#21) <a name="waste21"></a>
+![Syringes](images/syringes2.jpg)
 
-Fast food cup - there is only the receptacle
+### FF cups (only cup) (#21) <a name="waste21"></a>
+PLEASE DO NOT USE ANYMORE
+
+<!-- Fast food cup - there is only the receptacle.
+Please use this label only if you see a ff cup that is usually composed
 
 ![Only cup](images/ff_only_cup.jpg)
 
-![Only cup](images/cup_3.jpeg)
+![Only cup](images/cup_3.jpeg) -->
 
 ### FF cups (only lid) (#22) <a name="waste22"></a>
 
 Fast food cup - there is only the lid.
+Do not tag the lid if it's on the cup: in this case tag the whole this as FF cup. Tag it only if it's completely separate.
 
 ![Only lid](images/ff_only_lid.jpg)
 
@@ -120,11 +128,10 @@ In this case, you should tag the lid and the straw using 2 bounding boxes. Here 
 
 ![Only lid](images/ff_only_lid_2.jpg)
 
-![Only cup](images/cup_2.jpeg)
 
 ### FF cups (only straw) (#23) <a name="waste23"></a>
 
-Fast food cup - there is only the straw.
+Fast food cup - there is only the straw. Do not tag the straw if it's on the cup: in this case tag the whole this as FF cup. Tag it only if it's completely separate.
 
 ![straw](images/ff_only_straw_2.jpg)
 
@@ -132,7 +139,6 @@ In this case, you should tag the lid and the straw using 2 bounding boxes. Here 
 
 ![Only straw](images/ff_only_straw.jpg)
 
-![Only cup](images/cup_4.jpeg)
 
 ### FF fries box (#24) <a name="waste24"></a>
 
@@ -186,7 +192,7 @@ Description: iqos look like cigarettes, but completely **white**, a little bit *
 
 (source: https://vaping360.com/wp-content/uploads/2016/12/IQOS-33.jpg)
 
-# # # # How to recognize iqos?
+#### How to recognize iqos?
 
 Here are the questions you should ask yourself when tagging iqos on images:
 
@@ -215,16 +221,16 @@ Medium or big stain of any colour.
 ### Transparent plastic (#32) <a name="waste32"></a>
 
 All kind of transparent plastic: bags, glasses, boxes...
+**There are separate categories for transparent cups (#52), transparent tray lids (#51) and transparent food trays (#48). Please do not tag them as transparent plastic.**
 
-![Transparent plastic](images/transparent_1.jpg)
 
 ![Transparent plastic](images/transparent_2.jpg)
 
 ![Transparent plastic](images/transparent_3.jpg)
 
-![Transparent plastic](images/transparent_4.png)
-
 ![Transparent plastic](images/transparent_5.png)
+
+![Transparent plastic](images/transparent_6.jpg)
 
 ### Opaque plastic (#33) <a name="waste33"></a>
 
@@ -234,7 +240,8 @@ All kind of opaque plastics.
 
 ![Opaque plastic](images/opaque_2.jpg)|![Opaque plastic](images/opaque_1.jpg)
 
-![Opaque plastic](images/opaque_3.png)
+
+![Opaque plastic](images/opaque_4.jpg)
 
 ### Fabric (#34) <a name="waste34"></a>
 
@@ -292,16 +299,43 @@ Face protection masks. Most of the time, you will see blue paper mask (circled i
 
 ![Masks](images/masks_2.jpg)
 
-### Nitrous oxyde bottle (#47) <a name="waste47"></a>
+### Nitrous oxyde bottle (#46) <a name="waste46"></a>
 
 Small bottles of nitrous oxyde. They are made of metal, pretty small, with a recognizable shape. The end usually appears lighter because it reflects the light.
 
 ![Nitrous](images/proto1.jpg)
 ![Nitrous](images/proto2.jpg)
 ![Nitrous](images/proto3.png)
+### Transparent plastic food tray (#48) <a name="waste48"></a>
+Transparent tray that used to contain food.
+Can be round or rectangular, has to be transparent. If the lis is on, or partially placed on it, please tag the whole object as plastic food tray (do **not** tag the lid separately).
+
+![Transparent food tray](images/transparent_plastic_food_tray.jpg)
+### Opaque plastic tray lid (#49) <a name="waste49"></a>
+Opaque plastic tray that used to contain food.
+Can be round or rectangular, has to be opaque, will usually be black. If the lis is on, or partially placed on it, please tag the whole object as plastic food tray (do **not** tag the lid separately).
+![Opaque food tray](images/opaque_plastic_food_tray_1.jpg)
+
+![Opaque food tray](images/opaque_plastic_food_tray_2.jpg)
+### Cardboard food tray (#50) <a name="waste50"></a>
+Cardboard tray that used to contain food.
+Can be round or rectangular, has to be made of cardboard. If the lis is on, or partially placed on it, please tag the whole object as plastic food tray (do **not** tag the lid separately).
+
+The cardboard food trays look like the types in this image
+
+![Cardboard food tray](images/cardboard_food_tray.jpg)
 
 
+### Transparent plastic tray lid (#51) <a name="waste51"></a>
+Transparent plastic that goes on any kind of food trays (plastic or cardboard).
+Usually you'll find them near a plastic food tray.
+If it's fully or partially on the food tray (no matter which kind), do **not** tag the lid, only tag the whole object as food tray.
 
+![Transparent plastic lid](images/transparent_plastic_lid.jpg)
+### Transparent cup (#52) <a name="waste52"></a>
+Any kind of transparent cup, whether it's big small, made to contain liquid or food.
+Please do not mistake them with circular food tray (which are widder and shorter).
+![Transparent cup](images/transparent_cup.jpg)
 ##### Image sources
 - https://france3-regions.francetvinfo.fr/image/vqxTVsRGp--4Zu6nPIcHZgR6Z1M/600x400/regions/2020/06/09/5edf950e2fee1_img_8118-4553541.jpg
 - https://medias.cerveauetpsycho.fr/api/v1/images/view/5da9008b3e4546731a4ec5f0/wide_1300/image.jpg
