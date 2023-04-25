@@ -55,9 +55,7 @@ They are rectangular carton drink cups (small carton drink boxes with a little s
 
 ### FF cups drink receptacles (#8) <a name="waste8"></a>
 
-Plastic or cardboard fast food cups, for example Mc Donald's or Starbucks cups, ice cream cups... Please use this category only if you can see the whole cup.
-If  not, please use other categories (#21, #22 or #23).
-If it is a simple plastic cup without any brand, tag it as transpartent plastic cup (#52) or opaque plastic (#33), depending on the cup.
+Plastic or cardboard fast food cups, for example Mc Donald's or Starbucks cups, ice cream cups and any other cardboard or opaque plastic cup. Basically the only cups that should not go in FF cups are the transparent ones.
 
 ![fast food cup](images/ff_cup_1.jpg)
 ![fast food cup](images/ff_cup_4.jpg)
@@ -108,7 +106,7 @@ Crushed glass or broken glass. Please **both** piles of glass and isolated piece
 ![Syringes](images/syringes2.jpg)
 
 ### FF cups (only cup) (#21) <a name="waste21"></a>
-PLEASE DO NOT USE ANYMORE
+PLEASE DO NOT USE ANYMORE - USE FF CUP DRINK RECEPTACLE INSTEAD
 
 <!-- Fast food cup - there is only the receptacle.
 Please use this label only if you see a ff cup that is usually composed
