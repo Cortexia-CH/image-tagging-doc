@@ -17,17 +17,19 @@ The following rules should **always** be applied, even if you are provided with 
 
 For each identified object we need the bounding box and the class. See next section for the classification.
 
-- You should **delete** the following images (without tagging them):
-  - images with **recognizable faces** of people
-  - images with **recognizable number plates**
-  - images of **private properties**
 
-- You should **not** delete images with no litters. Just send them without any tags.
+- **Always tag all the wastes** of the image (unless you were explicitely told to do differently)
 
-- Tag a litter only if you are sure that you recognized it (no guessing). Please use the zoom to see all the details of a litter and make sure to label it correctly. You can find how to activate your zoom by clicking on the magnifier icon of the platform.
-- If you see a litter that you cannot recognize (for example if you cannot tell if it is an opaque plastic of food packaging), tag it as **Miscellaneous**. ⚠️ you must be 100% that what you see is an actual litter.
+- **Images with no wastes** can be submitted without any tags
 
-- The bounding boxes must perfectly fit the litter: there should not be any space between the border and the litter
+- **If you don't know which label to use**:
+  - If you have a choice between a global and a specific category, use the specific one (for example: if there is a newspaper, use the "Newspaper" category and not the "Paper/cardboard" category).
+  - If you hesitate between a cigarette and a paper, choose the closest. If you can't, use "paper/cardboard".
+  - If you hesitate between two other categories, choose the closest as well. If you can't, message your contact person via Upwork.
+  - For any other waste, if you recognize the object but can't find the category, either search in the "Example categories" page of this documentation or message your contact person via Upwork.
+  - If you don't recognize what it is but it definitly looks like littering, you can use the "Miscellaneous" category. Please use it as less as possible.
+
+- **The bounding boxes must perfectly fit** the litter: there should not be any space between the border and the litter:
 
   ![Unfitting](images/unfitting_box.png)  ![Fitting](images/fitting_box.png)
 
@@ -39,47 +41,40 @@ For each identified object we need the bounding box and the class. See next sect
 
   Please use the zoom in order to draw precise bounding boxes.
 
-- In case there are lots of litters on the same image:
+- In case there are lots of wastes on the same image:
+  - You need to tag each waste separately => if there are lots of papers **do not** group several of them in one single region
+  - Exception: for the leaves, you have a "group of leaves" tag => use it only when you have a group of several leaves touching each other
+  - Tag **all of the wastes** of the image, not some of them. If it seems an impossible job, just skip the image.
 
-  - You need to tag each litter separately => if there are lots of papers **do not** group several of them in one single region
-  - Exception: for the leaves, you have a "group of leaves" tag => use it only when the space between the leaves is really tiny, tag each leaf separately if possible
-  - Tag **all of the litter** of the image, not some of them. If it seems impossible, just delete the image.
+- As long as an object can be identified it should be tagged, **even if**:
+  - The object is cut or partially hidden
+  - The object is blurred
+  - The image is upside down
+  - There is poor lighting
+  - The object is very small
+  - The object is in a bin
+    ![Unfitting vd fitting](images/full_bin.png)
+  - The object is seen through transparent material (plastic bag, car window...)
 
-- boxes can overlap. As long as an object can be identified it should be tagged.
+- Bounding boxes can overlap
 
-- objects can be cut off or partially hidden. E.g. hidden by image boundary, other objects, or poor lighting. As long as the visible part of the object allows to identify its classification, it should be tagged.
+- **Reviewing**: images with already existing tagging information should be **checked**:
+    - delete the tags and skip the image if needed (images with private info - see below)
+    - check if the litter correspond to the labels, if not click on the three little dots next to the tag and choose "change class"
+    - click on a tag to see which bounding box it corresponds to
+    - add or delete bounding boxes if you need to (to delete: either click on the three little dots next to the tag and choose "delete" or click on the label and press the "delete" key on your keyboard)
 
-- The same applies to blurry parts of the image, or parts with poor lighting. 
+- Group of eaves are only litter on fixed ground. on green areas they are not considered as litter.
+If we have plants overgrowing the hard surface, it is the same, the green is not litter, and on top of the green everything needs to be tagged except group of leaves. 
 
-- what is the minimum size of an object in pixel? - no fixed boundary, but many objects are small. We probably need a size of 5x5 pixel to identify the classification. As long as you can identify the litter, you should tag it.
+  ![green on hard surfaces](images/green_area.png)
 
-- images with already existing tagging information should be 
+- The only natural elements that we tag are the group of leaves. Do not tag flowers, grass growing on the street, branch, twigs etc. You might see some straw-shaped leaves that should not be tagged either: ![straw](images/straw.jpg)
 
-  - **checked** if the tagging information is *normal*, e.g. can be selected:
-    - delete the image if needed (see list of images that should be deleted above)
-    - press 'h' key to hide the tags and see if the litter correspond to the labels
-    - hover the bounding boxes if you don't know what label corresponds to the colour
-    - change the labels if you need to
-    - add or delete bounding boxes if you need to
-  - **deleted** if the tagging information is inside the image itself (see image below)
-
-  ![Tags inside the image](images/flat_tags.png)
-
-- leaves are only litter on fixed ground. on green areas they are not considered as litter
-
-  Leaves on green area should not be tagged:
-  ![leaves considered as litter](images/leaves-litter.png)
-
-  The same applies for green areas like this picture of tramways, litter needs to be tagged, except for dead leaves on the green area. 
-  ![tramways](images/tramways.png)
-
-  If we have plants overgrowing the hard surface, it is the same, the green is not litter, and on top of the green everything needs to be tagged except dead leaves. 
-  ![green on hard surfaces](images/green-on-hard-surface.png)
-
-  On the same picture above you also see some street damage in front. The damage itself is not litter, but the loose gravel is litter and should be tagged as category 22 "Grit/Granulate/Sand"
-
-  Do not tag this kind of items - we do not have a classification for these straw-shaped leaves: ![straw](images/straw.jpg)
-
+### Images that you should skip
+  - images with **recognizable faces** of people
+  - images with **recognizable number plates**
+  - images of **private properties** (for example private garden in front of a house)
 ## Special instructions 
 
 Sometimes you will be asked to focus on a specific object. In this case, you should follow the special instructions, and you should also **still follow the ground rules**.
@@ -87,12 +82,6 @@ Sometimes you will be asked to focus on a specific object. In this case, you sho
 Here are the steps to follow when you have to focus on a specific object:
 
 ![steps when focusing on object](images/steps_to_tag.png)
-
-### 
-
-## Output format
-
-We will need the output as JSON file if possible (unless you are using our tagging tool which will take care of this automatically). Our sample JSON format is [here](./cortexia-sample.json).
 
 ## Using the Cortexia tagging tool
 
@@ -103,7 +92,5 @@ Please see the tool-specific information [here](tagging-tool.md)
 Please see the admin information [here](admin.md)
 
 ## Categories
-
-Please see the list of categories [here](./categories.md)
 
 Please see examples for special categories [here](./categories_examples.md)
