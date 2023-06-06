@@ -126,6 +126,7 @@ Fence including holes.
 ##### 18 – Pole :
 
 Small mainly vertically oriented pole. E.g. sign pole, traffic light poles. If the pole has a horizontal part (often for traffic light poles) this part is also considered pole. If there are things mounted at the pole that are neither traffic light nor traffic sign (e.g. street lights) and that have a diameter (in pixels) of at most twice the diameter of the pole, then these things might also be labeled pole. If they are larger, they are labeled miscellaneous.
+
 <img src="images/pole.jpg" width="700"> <img src="images/pole2.jpg" width="700">
 
 
