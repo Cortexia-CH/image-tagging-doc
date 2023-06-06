@@ -30,6 +30,7 @@ Part of ground designated for pedestrians or cyclists. Delimited from the road b
 ***
 :warning:  **Parking are part of the Sidewalk or Main Road** class depending on their relative location: e.g. a lateral parking on the side of the road next to a Sidewalk (separated from the sidewalk by a curb) is considered part of the Main Road. On the other hand, a parking with a different texture than the Main Road, or not separated from the sidewalk (e.g. a building entrance) is labeled as sidewalk.
 In the next examples, both parkings are Main Road because they are not separated from the road (the border between the road and the parking is flat and therfore not considered as curb):
+
 <img src="images/main_road_parking.jpg" width="700"> <img src="images/parking_dont_know.jpg" width="700">
 
 ***
