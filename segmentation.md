@@ -1,79 +1,135 @@
 # Segmentation
 
-You might be asked to do segmentation tagging. In this case, you will see diifferent kind of tags.
+You might be asked to do segmentation tagging. In this case, you will see diifferent kind of tags and use the segmentation tools. Please check the doc to see how to use the tools on LabelBox: https://cortexia-ch.github.io/labelbox-documentation/
 
-![Tags](images/segmentation_tags.png)
 
-"Segmentation" means that, instead of just drawing boxes around a few objects, you will separate the image in different parts, and labelise these parts. To do so, you will use the "multipolygon" tool.
+### :page_facing_up: Segmentation instructions:
 
-###  Multipolygon tool - how to use
+1. You should **skip** the following images (without tagging them):
+   - images with recognizable faces of people
+   - images with recognizable number plates
+2. Please **segment the whole image** - there should be no empty parts without label
+3. There should be **no space** between the shapes. Make use of the LabelBox tool advantages -> with the "add" tool, you have 2 modes:
+    - one which is simple "add" (by default), if you overlap a already draw category A with a new shape of category B, the overlapping part will remain category A
+    - one which is "add and replace", if you overlap a already draw category A with a new shape of category B, the overlapping part will become category B
+    Please check our LabelBox doc (https://cortexia-ch.github.io/labelbox-documentation/) to learn how to use them.
+4. Level of **detail**: try to be as precise as possible **but** it's okay to cut out roughly difficult shapes (for example vegetation with lots of leaves). You can rely on your own judgement to find a good balance between a good level of detail and a feasible work.
+5. Object size: do not segment very small objects, like litters or small parts of grass that grow between the main road and the buildings.
+![small-grass](images/small_grass.jpeg)
 
-![Multipolygon](images/multipolygon.png)
+### Categories descriptions
+Please read very carefully and entirely!
+All the images are only examples - you might see lots of different objects that fit into the category.
+##### 0 – Main Road :
 
-1. Select the multipolygon tool in the toolbar
-2. Draw your polygon point by point
-3. Double click to validate your polygon
+Part of ground on which cars usually drive, i.e. all lanes, all directions, all streets. Including the markings on the road. Areas only delimited by markings from the main road (no texture change) are also road, e.g. bicycle lanes, roundabout lanes, or parking spaces. This label does not include curbs.
+##### 1 – Sidewalk:
 
-### :page_facing_up: Segmentation steps:
+Part of ground designated for pedestrians or cyclists. Delimited from the road by some obstacle, e.g. curbs or poles (might be small), not only by markings. Often elevated compared to the road. Often located at the sides of a road. This label includes a possibly delimiting curb, traffic islands (the walkable part), or pedestrian zones (where usually cars are not allowed to drive during day-time).
 
-1. You should **delete** the following images (without tagging them):
-   - images with **recognizable faces** of people
-   - images with **recognizable number plates**
-   - images of **private properties**
-2. Identify the different parts of the images, using the list of labels
-3. Start tagging with the "multipolygon" tool. Please segment the whole image, **starting by the smaller objects**. Click on top of the object boundary so that the polygon accurately delineates the object outline.
-   You need to be very **precise**: the ideal outline should be good enough for somebody to recognize the object **just by seeing the drawn polygon**.
-4. Label your polygon with the provided categories.
+***
+:warning:  **Parking are part of the Sidewalk or Main Road** class depending on their relative location: e.g. a lateral parking on the side of the road next to a Sidewalk (separated from the sidewalk by a curb) is considered part of the Main Road. On the other hand, a parking with a different texture than the Main Road, or not separated from the sidewalk (e.g. a building entrance) is labeled as sidewalk.
+In the next examples, both parkings are Main Road because they are not separated from the road (the border between the road and the parking is flat and therfore not considered as curb):
+<img src="images/main_road_parking.jpg" width="700"> <img src="images/parking_dont_know.jpg" width="700">
 
-![Multipolygon](images/segmentation3.png)
+***
 
-### :warning: Important remarks
+##### 2 – People / Pedestrian:
 
-- Sometimes objects will be only partially visible. This is especially true for regions like roads, buildings, etc., which become difficult to label when there are many occlusions. Please complete the boundary **as if they were not occluded**. Don't hesitate to complete the shape of the objects when possible
+People walking, standing or sitting on the ground, on a bench, on a chair (benches and chairs are Miscellaneous - please only label the humans). This class also includes toddlers, someone pushing or riding a bicycle (again - please only segment the human as the bicyle is another category). This class includes anything that is carried by the person, e.g. backpack, but not items touching the ground, e.g. trolleys. A person riding a vehicle is still considered a person and is segmented separately from the vehicle. **Exception** include rider **in closed vehicles**: if the rider is only visible through a window, the rider is considered part of the car and is tagged as such.
+##### 3 – Cars:
 
-  - Example: there is a road that is partially masked by a tree:
-    1. You tag the tree normally
-    2. You tag the road as if there was no tree
+Car, jeep, SUV, van with continuous body shape.
 
-  In the image below the building and the pedestrian **should overlap**:
+##### 4 – Terrain: 
 
-  ![segmetation-overlapping](images/segmentation2_labels.png)
+Grass, all kinds of horizontal vegetation and natural terrain, soil or sand. These areas are not meant to be driven on. This label **includes a possibly delimiting curb**. Single grass stalks do not need to be annotated and get the label of the region they are growing on.
+ <img src="images/soil.jpeg" width="700">
 
-  See how the shape of the people are completed:
+##### 5 – Vegetation:
 
-  ![people_overlapping](images/people2.jpeg)
+Tree, hedge, all kinds of vertical vegetation. Plants attached to buildings are usually not annotated separately and labeled building as well. If growing at the side of a wall or building, marked as vegetation if it covers a substantial part of the surface (more than 20%).
 
-- The regions can overlap
 
-- **Do not segment litters**
+##### 6 – Buildings / houses:
 
-- Do not segment very small objects, like small parts of grass that grow between the main road and the buildings.
+Building, skyscraper, house, garage, car port. If a building has a glass wall that you can see through, the wall is still building. Includes scaffolding attached to buildings.
 
-- ![small-grass](images/small_grass.jpeg)
+ 
 
-- You can ignore those objects: traffic signs and poles, trash bins, the visible side of the vehicle (bike or sweeper) to which is attached the camera and the camera itself.
+##### 7 – Sky:
 
-- People on a bicycle/motorcicle should be one single object, labelled "Vehicle".
+Open sky, without leaves of tree. Includes thin electrical wires in front of the sky.
 
-- Try to segment the whole image if you can. It is okay if there are spaces between some objects.
+ 
 
-- Try as much as possible to label the objects in the closest provided category. If none of the categories fit the object you're seeing, use "Miscellaneous".
-  Example: there is no category for the building site on the following image. You should tag it as "Miscellaneous".
+##### 8 – Miscellaneous :
 
-  ![building-site](images/building_site.jpeg)
+Things that might not be there anymore the next day/hour/minute: Movable trash bin, buggy, bag, wheelchair, animal. Any bulky item that does not belong to the other classes. Clutter in the background that is not distinguishable. Any construction zone.
+<img src="images/building_site.jpeg" width="700">
 
-- 
+ 
 
-### :bulb: Help
+##### 10 – Truck :
 
-- If you are stuck with the multipolygon tool (e.g. you can't start the polygon at the right place):
-  1. Press "esc" on your keyboard
-  2. Click on the mouse cursor in the toolbar
-  3. Delete the point that appeared on the image
-  4. Select the multipolygon tool again.
+Truck, box truck, pickup truck. Including their trailers.
 
-- If you cannot draw a polygon (P1) around an object because another polygon (P2) is overlapping it entirely:
-  1. Slightly move P2 to the side
-  2. Draw P1 around the object
-  3. Move back P2 to its original place
+ 
 
+##### 11 – Bus :
+
+Bus, long line public transport
+
+ 
+
+##### 12 – Motorclycle :
+
+Motorbike, moped, scooter without the driver (that's a rider, see above).
+
+ 
+
+##### 13 – Bicycle :       
+
+Bicycle without the driver (which goes under people/pedestrian, see above).
+
+ 
+
+##### 14 – Rail vehicle :
+
+Vehicle on rails, e.g. tram, train.
+
+ 
+
+##### 15 – Rail track :
+
+All kind of rail : subway and train and tram rail tracks
+<img src="images/rail.jpg" width="700">
+
+ 
+##### 16 – Wall :
+
+Individual standing wall. Not part of a building.
+
+<img src="images/wall.jpg" width="700"> <img src="images/wall2.jpg" width="700">
+
+ 
+##### 17 – Fence :
+Fence including holes.
+
+<img src="images/fence1.png" width="700"> <img src="images/fence2.jpg" width="700">
+
+
+##### 18 – Pole :
+
+Small mainly vertically oriented pole. E.g. sign pole, traffic light poles. If the pole has a horizontal part (often for traffic light poles) this part is also considered pole. If there are things mounted at the pole that are neither traffic light nor traffic sign (e.g. street lights) and that have a diameter (in pixels) of at most twice the diameter of the pole, then these things might also be labeled pole. If they are larger, they are labeled miscellaneous.
+<img src="images/pole.jpg" width="700"> <img src="images/pole2.jpg" width="700">
+
+
+
+##### 19 - Water : 
+
+Any subsential area filled with water, such as pond, watercourse, lake, etc…
+
+##### 20 - Front of the vehicle : 
+
+Front of the vehicle to which the camera is attached.
