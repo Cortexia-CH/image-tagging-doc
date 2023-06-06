@@ -133,7 +133,7 @@ Small mainly vertically oriented pole. E.g. sign pole, traffic light poles. If t
 
 ##### 19 - Water : 
 
-Any subsential area filled with water, such as pond, watercourse, lake, etc…
+Any substantial area filled with water, such as pond, watercourse, lake, etc…
 
 ##### 20 - Front of the vehicle : 
 
