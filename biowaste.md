@@ -28,27 +28,37 @@ Glass bottle of any colour.
 
 Opaque platic bag of any colour.
 Transparent plastic bags **should not be tagged**.
+
 <img src="images/biowaste/opaque_plastic_bag1.png" width="700">
 <img src="images/biowaste/opaque_plastic_bag2.png" width="700">
+
+
 <img src="images/biowaste/opaque_plastic_bag4.png"><img src="images/biowaste/opaque_plastic_bag3.png">
+
 
 ##### 3 - Big carboard:
 
 Only carboards of a significant size, for example used to wrap packs of food, big toys etc...
-<img src="images/biowaste/big_cardboard1.png" width="700">
-<img src="images/biowaste/big_cardboard4.png" width="500">
+
+<img src="images/biowaste/big_cardboard1.png">
+<img src="images/biowaste/big_cardboard4.png">
+
 <img src="images/biowaste/big_cardboard3.png"><img src="images/biowaste/big_cardboard2.png">
 
 ##### 4 - PET bottle:
 :warning: This is a subcategory of "Empty packaging"
+
 All PET bottles.
+
 <img src="images/biowaste/pet_bottle1.png">
-<img src="images/biowaste/pet_bottle2.png" width="500">
+<img src="images/biowaste/pet_bottle2.png">
 
 ##### 5 - Can:
 :warning: This is a subcategory of "Empty packaging"
+
 All cans.
-<img src="images/biowaste/can1.png" width="500">
+
+<img src="images/biowaste/can1.png">
 
 ##### 6 - Polystyrene (SAGEX, ...)
 :warning: This is a subcategory of "Other wastes"
@@ -59,15 +69,19 @@ Any polystyrene object (for example SAGEX packagings). Polystyrene is aways whit
 
 ##### 7 - Cleaning/maintainance products:
 :warning: This is a subcategory of "Dangerous products"
+
 Plastic bottles that contain dangerous products such as detergent, cleaning products, etc...
 Please include spray cans (for example hair spray).
+
 <img src="images/biowaste/maintainance_products3.png">
 <img src="images/biowaste/maintainance_products2.png"><img src="images/biowaste/maintainance_products1.png">
 
 
 ##### 8 - Hygiene products:
 :warning: This is a subcategory of "Dangerous products"
+
 Any kind of hygiene products, for example body wash bottles, shampoo bottles, toothpaste tube...
+
 <img src="images/biowaste/hygiene_products4.png">
 <img src="images/biowaste/hygiene_products1.png">
 <img src="images/biowaste/hygiene_products2.png"><img src="images/biowaste/hygiene_products3.png">
