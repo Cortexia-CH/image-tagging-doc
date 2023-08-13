@@ -31,6 +31,7 @@ Transparent plastic bags **should not be tagged**.
 
 <img src="images/biowaste/opaque_plastic_bag1.png">
 <img src="images/biowaste/opaque_plastic_bag2.png">
+
 <img src="images/biowaste/opaque_plastic_bag4.png"><img src="images/biowaste/opaque_plastic_bag3.png">
 
 ##### 3 - Big carboard:
@@ -39,6 +40,7 @@ Only carboards of a significant size, for example used to wrap packs of food, bi
 
 <img src="images/biowaste/big_cardboard1.png">
 <img src="images/biowaste/big_cardboard4.png">
+
 <img src="images/biowaste/big_cardboard3.png"><img src="images/biowaste/big_cardboard2.png">
 
 ##### 4 - PET bottle:
@@ -50,6 +52,7 @@ All PET bottles.
 
 ##### 5 - Can:
 :warning: This is a subcategory of "Empty packaging"
+
 All cans.
 
 <img src="images/biowaste/can1.png">
@@ -63,6 +66,7 @@ Any polystyrene object (for example SAGEX packagings). Polystyrene is aways whit
 
 ##### 7 - Cleaning/maintainance products:
 :warning: This is a subcategory of "Dangerous products"
+
 Plastic bottles that contain dangerous products such as detergent, cleaning products, etc...
 Please include spray cans (for example hair spray).
 
@@ -72,6 +76,7 @@ Please include spray cans (for example hair spray).
 
 ##### 8 - Hygiene products:
 :warning: This is a subcategory of "Dangerous products"
+
 Any kind of hygiene products, for example body wash bottles, shampoo bottles, toothpaste tube...
 
 <img src="images/biowaste/hygiene_products4.png">
