@@ -29,8 +29,8 @@ Glass bottle of any colour.
 Opaque platic bag of any colour.
 Transparent plastic bags **should not be tagged**.
 
-<img src="images/biowaste/opaque_plastic_bag1.png">
-<img src="images/biowaste/opaque_plastic_bag2.png">
+<img src="images/biowaste/opaque_plastic_bag1.png" width="700">
+<img src="images/biowaste/opaque_plastic_bag2.png" width="700>
 
 <img src="images/biowaste/opaque_plastic_bag4.png"><img src="images/biowaste/opaque_plastic_bag3.png">
 
@@ -45,6 +45,7 @@ Only carboards of a significant size, for example used to wrap packs of food, bi
 
 ##### 4 - PET bottle:
 :warning: This is a subcategory of "Empty packaging"
+
 All PET bottles.
 
 <img src="images/biowaste/pet_bottle1.png">
