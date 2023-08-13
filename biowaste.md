@@ -30,9 +30,11 @@ Opaque platic bag of any colour.
 Transparent plastic bags **should not be tagged**.
 
 <img src="images/biowaste/opaque_plastic_bag1.png" width="700">
-<img src="images/biowaste/opaque_plastic_bag2.png" width="700>
+<img src="images/biowaste/opaque_plastic_bag2.png" width="700">
+
 
 <img src="images/biowaste/opaque_plastic_bag4.png"><img src="images/biowaste/opaque_plastic_bag3.png">
+
 
 ##### 3 - Big carboard:
 
