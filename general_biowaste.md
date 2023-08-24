@@ -43,3 +43,7 @@ Compostable bags are hard to distinguish from regular plastic bags. Their main d
 Here are some example : 
 <img src="images/biowaste/compost1.png" width="300"><img src="images/biowaste/compost2.png" width="300"><img src="images/biowaste/compost3.png"  width="300">
 <img src="images/biowaste/compost4.png" width="300"><img src="images/biowaste/compost5.png" width="300"><img src="images/biowaste/compost6.png" width="300">
+
+## Decision tree
+<img src="images/biowaste/decision_tree.jpeg">
+<img src="images/biowaste/decision_tree2.jpeg">
