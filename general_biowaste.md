@@ -6,7 +6,9 @@
 
 2. When a whole object is split in two or more parts because there's another object in front of it masking part of it, please draw both parts separately and then use the "same object" relation to indicate that both parts go together. See below how to use this tool in case there are more than 2 parts.
 
-3. Skip all the images that have no anomalies.
+3. You have two types of labels: some with a "category" suffix, and some without. The ones with "category" are main categories, the ones without are the subcategories. Always try to find a specific tag in the subcategories. If you can't find any that fit, use one of the categories. If you can't find any that fits, use "anomaly". Please check the decision tree. 
+
+4. Skip all the images that have no anomalies.
 
 ## How to tag
 ### Parts
