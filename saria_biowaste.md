@@ -1,4 +1,4 @@
-# Biowaste
+# Saria Biowaste
 
 For this projects, you will tag anomalies in images of compost.
 
@@ -6,11 +6,11 @@ For this projects, you will tag anomalies in images of compost.
 
 1. Observe carefully the image to find any object of the categories. There are a lot of things in those images so take your time to find any anomaly in the image.
 
-2. You'll see a lot of plastic food pacckaging. Those are not considered as anomalies.
+2. You'll see a lot of plastic food packaging. Those are not considered as anomalies.
 
 3. When a whole object is split in two because there's another object in front of it masking part of it, please draw both parts separately and then use the "same object" relation to indicate that both parts go together.
 
-4. Please do not skip any of the imagee.
+4. Please do not skip any of the image.
 
 
 ### Categories descriptions
