@@ -24,8 +24,8 @@ The tags on those images are means to help you recognize the categories. Please 
 ##### 1 – Glass bottle :
 Glass bottle of any colour.
 
-<img src="images/biowaste/glass_bottle1.png" width="700">
-<img src="images/biowaste/glass_bottle2.png" width="700">
+<img src="images/biowaste/glass_bottle3.png" width="700">
+<img src="images/biowaste/glass_bottle4.png" width="700">
 
 
 ##### 2 - Opaque plastic bag:
@@ -85,6 +85,8 @@ Please include spray cans (for example hair spray). Do not mistake them for cans
 
 <img src="images/biowaste/maintainance_products3.png">
 <img src="images/biowaste/maintainance_products2.png"><img src="images/biowaste/maintainance_products1.png">
+<img src="images/biowaste/maintainance_products4.png">
+<img src="images/biowaste/maintainance_products5.png">
 <img src="images/biowaste/spraycan.webp">
 
 
