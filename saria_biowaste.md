@@ -10,7 +10,11 @@ For this projects, you will tag anomalies in images of compost.
 
 3. When a whole object is split in two because there's another object in front of it masking part of it, please draw both parts separately and then use the "same object" relation to indicate that both parts go together.
 
-4. Please do not skip any of the image.
+4. However, be careful not to groupe different objetcs together. If two pieces of cardboard touch each other or are overlapping, please tag them separately as you can count two different pieces.
+
+5. If you're not sure of the category, do not tag it.
+
+6. Please do not skip any of the image.
 
 
 ### Categories descriptions
@@ -20,8 +24,8 @@ The tags on those images are means to help you recognize the categories. Please 
 ##### 1 – Glass bottle :
 Glass bottle of any colour.
 
-<img src="images/biowaste/glass_bottle1.png" width="700">
-<img src="images/biowaste/glass_bottle2.png" width="700">
+<img src="images/biowaste/glass_bottle3.png" width="700">
+<img src="images/biowaste/glass_bottle4.png" width="700">
 
 
 ##### 2 - Opaque plastic bag:
@@ -48,7 +52,8 @@ Only carboards of a significant size, for example used to wrap packs of food, bi
 ##### 4 - PET bottle:
 :warning: This is a subcategory of "Empty packaging"
 
-All PET bottles.
+All PET bottles. These bottles are transparent (or at least not fully opaque), often with a brand label on it.
+Be careful not to mistake PET bottles and dangerous products. Some are a bit confusing - if you're not sure between these two categories, message your contact person trough Upwork.
 
 <img src="images/biowaste/pet_bottle1.png">
 <img src="images/biowaste/pet_bottle2.png">
@@ -57,8 +62,13 @@ All PET bottles.
 :warning: This is a subcategory of "Empty packaging"
 
 All cans.
+Do not include sprays, which are dangerous products.
 
-<img src="images/biowaste/can1.png">
+##### 9 - Opaque plastic bottles:
+All opaque plastic bottles that are not dangerous products. For example: white milk bottles.
+
+<img src="images/biowaste/opaque_plastic_bottles.png">
+
 
 ##### 6 - Polystyrene (SAGEX, ...)
 :warning: This is a subcategory of "Other wastes"
@@ -71,10 +81,13 @@ Any polystyrene object (for example SAGEX packagings). Polystyrene is aways whit
 :warning: This is a subcategory of "Dangerous products"
 
 Plastic bottles that contain dangerous products such as detergent, cleaning products, etc...
-Please include spray cans (for example hair spray).
+Please include spray cans (for example hair spray). Do not mistake them for cans.
 
 <img src="images/biowaste/maintainance_products3.png">
 <img src="images/biowaste/maintainance_products2.png"><img src="images/biowaste/maintainance_products1.png">
+<img src="images/biowaste/maintainance_products4.png">
+<img src="images/biowaste/maintainance_products5.png">
+<img src="images/biowaste/spraycan.webp">
 
 
 ##### 8 - Hygiene products:
