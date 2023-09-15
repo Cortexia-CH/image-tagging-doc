@@ -34,17 +34,31 @@
 
 ### classification labels:
 
-The following labels are selected when the criteria are valid on a major part of the picture.
+**image quality**:
 
-- **clean**: Balanced illumination without over- or underexposure, crispy image, good color rending, little to no blur, no large occulting object in the fields of view. 
-- **hard light**: Strong sun light patterns are visible giving rise to a contrasted image with sharp shadow lines. 
-- **overexposed**: The image is to bright and saturated in many places
-- **underexposed**: The image is to dark, noisy, where objects are not identifiable in many places.
-- **motion blurred object**: Falling biowaste due to motion is strongly blurred.
-- **foggy**: Hight amount of dust altering the capacity to distinguish anomalies from biowaste.
-- **dirt on lens**: Semitransparent water droplets or dirt is blurry the image.  
-- **opaque blinding**: Strongly altered optical access due to occulting object in the field of view
-- **abnormal**: Anything looking wrong which does impact significantly the observation compared to the usual scene such as a wrong orientation of the camera or wrong waste flux like cardboard instead of biowaste.
+Each time you look at an image please select one or more labels under image quality (compulsory global classification). First choose either if the images is clean or suffer a particular degradation. in case the image is not clean, several particular cases can be selected. 
+
+1. **clean**: The illumination is balanced without over- or underexposure, the image is crisp with good color rending, little to no blur, no large occulting object in the fields of view. 
+
+2. **particular**: The quality of the image is affected by one or several of the following possible degradations:
+
+    - **hard light**: Strong sun light patterns are visible giving rise to a contrasted image with sharp shadow lines. 
+    - **overexposed**: The image is to bright and saturated in many places
+    - **underexposed**: The image is to dark, noisy, where objects are not identifiable in many places.
+    - **motion blurred object**: Falling biowaste due to motion is strongly blurred.
+    - **foggy**: Hight amount of dust altering the capacity to distinguish anomalies from biowaste.
+    - **dirt on lens**: Semitransparent water droplets or dirt is blurry the image.  
+    - **occulted**: Strongly altered optical access due to occulting object in the field of view
+
+        <img src="images/biowaste/occulting_1.jpeg">
+        
+    - **abnormal**: Anything looking wrong which does impact significantly the observation compared to the usual scene such as a wrong orientation of the camera or wrong waste flux like cardboard instead of biowaste.
+
+
+
+<img src="images/biowaste/clean1.jpg">
+Example of a clean image without particular degradation.
+
 
 ### segmentation labels:
 
@@ -53,6 +67,9 @@ The “Type” labels to classify anomalies are organized under the “Category�
 **note:** The example images are generic to help picturing the main idea. It should be kept in mind that for each type of anomaly the possibilities must be broaden beyond what's on the example images. The real picture does not always provide a clear view on the anomaly, so annotate only when certain. Moreover, anomaly objects might be damaged, crumpled, or broken pieces of the original object. When available and useful some real pictures from our application field are presented. Keep also in mind that anomalies tend to be object providing from the kitchen or the work in garden. Example images below are oriented in this sense.
 
 1. **hard light category**: Under direct sun illumination the scene is highly contrasted because there are dark shadows lying between or on side of projected hard light in the field of view. Label only the highly illuminated regions where the sun light falls on the observable surface. The hard lighted regions are delimited by the darker regions (projected shadows).
+
+    <img src="images/biowaste/hardlight_1.jpg"  width="300"> 
+    Exemple hard light: the illuminated region are clearly delimited and muss be segmented with labe hard light.
 
 2. **anomaly category**: Objects which are clearly not biowaste. It can be identified as not biowaste, but the type or category cannot be identified with certainty or it does not belong to one of the category labels. In the last case please signal it and propose a new category label (see decision tree below).
 
@@ -236,7 +253,11 @@ The “Type” labels to classify anomalies are organized under the “Category�
 
 16. **occulting category**: do not belong to the load but is visible on the picture in front of the biowaste (no as background)
     - humans: people might enter the truck and are visible on the images
+
+         <img src="images/biowaste/occulting_1.jpg">
     - waste container: Container when pouring biowaste into the truck might be visible on the picture.
+
+        <img src="images/biowaste/occulting_1.jpeg">
     - other occulting objects: Anything like curtains, ropes, cable that do not belong to waste but are in front of it. 
 
 ## How to tag
