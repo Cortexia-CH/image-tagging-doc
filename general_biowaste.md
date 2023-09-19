@@ -195,6 +195,7 @@ Bags with a grid pattern. Soft and light colors, transparent or semitransparent 
 
 #### 30. **ceramic category**:
 Anomaly made of ceramic. In many cases only broken pieces are visible. If the shards are ceramic for sure but are to mush broken to identify the type, please label with ceramic category.
+
 31. **ceramic flower pot**: Pot for plants used in or outdoors. Usually round and V-shaped.
 
 <img src="images/biowaste/ceramic_flower_pot_1.jpeg" width="300">
