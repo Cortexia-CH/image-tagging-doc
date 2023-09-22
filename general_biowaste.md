@@ -56,9 +56,10 @@ Example of a clean image without particular degradation.
     <img src="images/biowaste/fog3.jpeg">
     - **dirt on lens**: Semitransparent water droplets or dirt is blurry the image.  
     <img src="images/biowaste/dirt_on_lens.jpeg">
+    
     - **occulted**: Strongly altered optical access due to occulting object in the field of view
 
-        <img src="images/biowaste/occulting_1.jpeg">
+   <img src="images/biowaste/occulting_1.jpeg">
         
     - **abnormal**: Anything looking wrong which does impact significantly the observation compared to the usual scene such as a wrong orientation of the camera or wrong waste flux like cardboard instead of biowaste.
 
