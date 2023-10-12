@@ -344,17 +344,20 @@ ___
 
 That plant was before in a flowerpot. The shape of the pot is clearly recognizable. However, there is no plastic bag wrapping it neither the pot is present anymore. Nothing to tag on this example.
 ___
-<img src="images/biowaste/exemple3.jpg" width = 1200>
 
 Original: 
 
-<img src="images/biowaste/exemple3zoom2.jpg">
+<img src="images/biowaste/exemple3.jpg" width = 1200>
 
 zoom1:
 On the very bottom of the image, one distinguishes an anomaly with certainty. As this anomaly is not classifiable one just tags as anomaly. 
 
-<img src="images/biowaste/exemple3zoom.jpg">
+<img src="images/biowaste/exemple3zoom2.jpg">
+
 
 zoom2:
 The pink napkin can reasonably be classified as "paper bag and sheet". Below it there is an anomaly that look like wrapped paper, but it could be plastic too. Thus, we classify it as wrapping category.
+
+<img src="images/biowaste/exemple3zoom.jpg">
+
 
