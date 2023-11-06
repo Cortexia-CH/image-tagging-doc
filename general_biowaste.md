@@ -240,7 +240,7 @@ Anomaly made of ceramic. In many cases only broken pieces are visible. If the sh
     <img src="images/biowaste/tetra_pak_1.jpeg" width="300">
 41.  **cigrarette iqos**: Cigarettes buts, iqos from electronic smoking.
 
-<img src="images/biowaste/cig_iqos_1.jpeg" width="300">
+<img src="images/iqos_in_hand.jpg" width="300">
 
 42. **electric cable**:
 
