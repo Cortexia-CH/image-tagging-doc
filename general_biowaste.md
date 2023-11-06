@@ -193,6 +193,7 @@ Bags with a grid pattern. Soft and light colors, transparent or semitransparent 
 <img src="images/biowaste/compostable_2.jpeg" width="300">
 <img src="images/biowaste/compostable_3.jpeg" width="300">
 <img src="images/biowaste/compostable_5.jpeg" width="300">
+<img src="images/biowaste/compostable_6.png">
 
 #### 30. **ceramic category**:
 Anomaly made of ceramic. In many cases only broken pieces are visible. If the shards are ceramic for sure but are to mush broken to identify the type, please label with ceramic category.
@@ -240,6 +241,7 @@ Anomaly made of ceramic. In many cases only broken pieces are visible. If the sh
 41.  **cigrarette iqos**: Cigarettes buts, iqos from electronic smoking.
 
     <img src="images/biowaste/cig_iqos_1.jpeg" width="300">
+
 42. **electric cable**:
 
     <img src="images/biowaste/cable_1.jpeg" width="300">
@@ -270,8 +272,13 @@ When you are not certain whether food packing is paper only or laminated or plas
 When you are not certain whether a foil wrapped, crushed is made of plastic. paper or aluminum.
 
 #### 51. **alarm category**: bulky goods that can't be well quantified.
+For example, big planks of wood.
+
 52. **big stone**: Rocks, bricks, etc...
-53. **bulky good**: Furniture.
+53. **bulky good**: Furniture. Can also include wicker baskets
+
+<img src="images/biowaste/bulky_goods_1.png" >
+
 54. **electronics**: Computer, smart phone, toaster, mixer, speaker, etc...
 55. **filled bag unkown content**: The bag is filled:
 
@@ -320,10 +327,11 @@ Note: for best practice,  one should choose a part as target and link all other 
 Specification on compostable bags: 
 
 Compostable bags are hard to distinguish from regular plastic bags. Their main difference is that they tend to have a grid-like pattern. While their color might change, they are mostly white or green.
+They can be big (like last image)
 
 Here are some example: 
 <img src="images/biowaste/compost1.png" width="300"><img src="images/biowaste/compost2.png" width="300"><img src="images/biowaste/compost3.png"  width="300">
-<img src="images/biowaste/compost4.png" width="300"><img src="images/biowaste/compost5.png" width="300"><img src="images/biowaste/compost6.png" width="300">
+<img src="images/biowaste/compost4.png" width="300"><img src="images/biowaste/compost5.png" width="300"><img src="images/biowaste/compost6.png" width="300"><img src="images/biowaste/compostable_6.png">
 
 ## Decision tree
 <img src="images/biowaste/decision_tree_general.jpeg">
