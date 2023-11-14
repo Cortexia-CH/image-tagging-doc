@@ -83,6 +83,16 @@ Here are the steps to follow when you have to focus on a specific object:
 
 ![steps when focusing on object](images/steps_to_tag.png)
 
+## Rework a dataset
+You might have to work on a dataset with pre-existing annotations.
+In this case, you need to make sure that the annotations are correct.
+1. Check all the existing objects and make sure that their labels are correct.
+2. Check all the existing object and adjust the bounding boxes so they perfectly fit the objet.
+3. Delete any object which is not a waste or where the waste type was guessed - we need to be sure of the type if it's tagged.
+4. Check the image for objects that were forgotten.
+
+The image could be correct, you might not have to fix anything.
+
 ## Using the Cortexia tagging tool
 
 Please see the tool-specific information [here](tagging-tool.md)
