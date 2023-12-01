@@ -27,6 +27,8 @@
 - [83-Cardboard food tray](#waste50)
 - [84-Transp. plastic tray lid](#waste51)
 - [85-Transparent cup](#waste52)
+- [80-Nitrous oxyde bottle](#waste46)
+- [92-Big nitrous oxyde bottle](#waste53)
 
 ## All categories with images
 
@@ -287,3 +289,9 @@ If it's fully or partially on the food tray (no matter which kind), do **not** t
 Any kind of transparent cup, whether it's big small, made to contain liquid or food.
 Please do not mistake them with circular food tray (which are widder and shorter).
 ![Transparent cup](images/transparent_cup.jpg)
+
+
+### 92 - Big nitrous oxyde bottles <a name="waste53"></a>
+Thesse bottles are large containers for nitrous oxyde. They might be open or closed. They look a lot like spray bottles.
+![Big nitrous oyxde bottle](images/big_nitrous_1.jpg)
+![Big nitrous oyxde bottle](images/big_nitrous_2.jpg)
